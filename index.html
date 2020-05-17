@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no" />
+    <title>Bootstrap 4 Drills</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <!-- Containers and the Grid System -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <h1>First Bootstrap Project</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-4 text-left bg-primary py-4">Title1</div>
+        <div class="col-4 text-center bg-success py-4">Title2</div>
+        <div class="col-4 text-right bg-warning py-4">Title3</div>
+      </div>
+      <!-- Bootstrap Forms -->
+      <div class="row">
+        <form action="" class="col-12 border border-primary my-3 p-3">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              class="form-control"
+              type="email"
+              id="email-1"
+              aria-describedby="emailHelp"
+              placeholder="Enter Email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              class="form-control"
+              type="password"
+              id="password-1"
+              placeholder="Enter Password"
+            />
+          </div>
+          <div class="form-group">
+            <label for="pet"
+              >Type of Pet
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="pet"
+                  value="cat"
+                />
+                <label class="form-check-label" for="cat">Cat</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="pet"
+                  value="dog"
+                />
+                <label class="form-check-label" for="dog">Dog</label>
+              </div></label
+            >
+          </div>
+          <div class="form-group">
+            <label for="pizza">
+              Pizza Type
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="pizza" />
+                <label class="form-check-label" for="cheese-pizza"
+                  >Cheese Pizza</label
+                >
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="pizza" />
+                <label class="form-check-label" for="hawaiian-pizza"
+                  >Hawaiian Pizza</label
+                >
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="pizza" />
+                <label class="form-check-label" for="supreme-pizza"
+                  >Supreme Pizza</label
+                >
+              </div>
+            </label>
+          </div>
+          <input type="submit" name="submit" value="Sign In" />
+        </form>
+      </div>
+      <!-- Cards -->
+      <div class="row my-3">
+          <div class="card col-6">
+              <div class="card-body">
+                  <h3>Buddy-1</h3>
+                  <p>Buddy-1 is cool!</p>
+              </div>
+          </div>
+          <div class="card col-6">
+              <div class="card-body">
+                  <h3>Buddy-2</h3>
+                  <p>Buddy-2 is cooler!</p>
+              </div>
+          </div>
+          <div class="card col-6">
+              <div class="card-body">
+                  <h3>Buddy-3</h3>
+                  <p>Buddy-3 is even cooler!</p>
+              </div>
+          </div>
+          <div class="card col-6">
+              <div class="card-body">
+                  <h3>Buddy-4</h3>
+                  <p>Buddy-4 is just more cool!</p>
+              </div>
+          </div>
+          <div class="card col-6">
+              <div class="card-body">
+                  <h3>Buddy-5</h3>
+                  <p>Buddy-5 is just about as the coolest!</p>
+              </div>
+          </div>
+          <div class="card col-6">
+              <div class="card-body">
+                  <h3>Buddy-6</h3>
+                  <p>Buddy is definitely the coolest!</p>
+              </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
